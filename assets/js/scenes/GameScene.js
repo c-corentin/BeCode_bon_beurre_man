@@ -11,6 +11,8 @@ class GameScene extends Phaser.Scene {
         this.addCollisions();
 
         this.createInput();
+
+        this.createAudio();
     }
 
     createMap() {
@@ -37,6 +39,11 @@ class GameScene extends Phaser.Scene {
 
     addCollisions() {
         this.physics.add.collider(this.player, this.walls); //Adds collision between said objects
+    }
+
+    createAudio() {
+        this.gameMusic = this.sound.add('gameMusic', {loop: true});
+        this.gameMusic.play();
     }
 
     update() {

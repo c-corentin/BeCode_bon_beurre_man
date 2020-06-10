@@ -12,6 +12,9 @@ class BootScene extends Phaser.Scene {
 
         // TILEMAP
         this.loadTileMap();
+
+        // AUDIO
+        this.loadAudio();
     }
 
    loadImages() {       
@@ -31,6 +34,11 @@ class BootScene extends Phaser.Scene {
     loadTileMap() {
         // load JSON file map
         this.load.tilemapTiledJSON("map", 'assets/level/mapmaison.json');
+    }
+
+    loadAudio() {
+        this.load.audio('gameMusic', ['assets/audio/game-song.wav']);
+        this.load.audio('titleMusic', ['assets/audio/title-song.wav']);
     }
 
     create(){
