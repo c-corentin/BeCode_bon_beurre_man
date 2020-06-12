@@ -1,0 +1,27 @@
+{
+  "name": "becode_bon_beurre_man",
+  "version": "1.0.0",
+  "description": "Projet de groupe de création d'un jeu multijoueur",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdom": "^16.2.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-corentin/BeCode_bon_beurre_man.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-corentin/BeCode_bon_beurre_man/issues"
+  },
+  "homepage": "https://github.com/c-corentin/BeCode_bon_beurre_man#readme"
+}

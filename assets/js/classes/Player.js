@@ -14,6 +14,8 @@ class Player extends Phaser.Physics.Arcade.Image {
         this.scene.add.existing(this); //adds the player to an existing scene
         this.setScale(0.9);
 
+        let socket = io.connect();
+
     }
 
     
@@ -26,6 +28,7 @@ class Player extends Phaser.Physics.Arcade.Image {
 
         if (cursors.left.isDown) {
             this.body.setVelocityX(-this.Velocity); //Sets object velocity to move it along x and y axes
+            
         } else if (cursors.right.isDown) {
             this.body.setVelocityX(this.Velocity);
         };
@@ -39,5 +42,10 @@ class Player extends Phaser.Physics.Arcade.Image {
        if (cursors.space.isDown) {
            this.dropBomb();
           }
+        socket.emit("mouvements",{'x':this.body.x,'y':this.body.y})
+
+       /* if (this.game.input.keyboard.justPressed(Phaser.Keyboard.SPACEBAR)) {
+            this.dropBomb();
+          }*/
     }
 }

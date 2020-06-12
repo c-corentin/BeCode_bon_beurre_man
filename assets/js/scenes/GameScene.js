@@ -1,6 +1,8 @@
 class GameScene extends Phaser.Scene {
     constructor() {
         super('Game');
+
+        let socket = io.connect();
     }
 
     create() {
@@ -31,6 +33,9 @@ class GameScene extends Phaser.Scene {
 
     createPlayer() {
         this.player = new Player(this, 50, 50, 'characters', 2);
+
+        this.players = new Players(this, 50, 50, 'characters', 3);                
+        
     }
 
     createInput() {
@@ -48,5 +53,13 @@ class GameScene extends Phaser.Scene {
 
     update() {
         this.player.update(this.cursors); //calls the update method for the player class
+        
+
+        socket.on("pos",(data)=>{
+            
+            this.players.update(data.x,data.y);
+        })
+       
     }
+
 }
