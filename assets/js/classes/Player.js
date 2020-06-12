@@ -16,6 +16,7 @@ class Player extends Phaser.Physics.Arcade.Image {
 
     }
 
+    
     create() {
 
     }
