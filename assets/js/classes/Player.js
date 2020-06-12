@@ -35,8 +35,8 @@ class Player extends Phaser.Physics.Arcade.Image {
             this.body.setVelocityY(this.Velocity);
         }
 
-       /* if (this.game.input.keyboard.justPressed(Phaser.Keyboard.SPACEBAR)) {
-            this.dropBomb();
-          }*/
+       if (cursors.space.isDown) {
+           this.dropBomb();
+          }
     }
 }
