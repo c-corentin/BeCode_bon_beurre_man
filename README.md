@@ -30,4 +30,4 @@ Bon Beurre Man est un jeu où le joueur incarne une poule lâchant des bombes de
 * Musique du jeu crée par un ami du membre de l'équipe
 
 
-<img src="https://giphy.com/gifs/idjlI0ixTP6KP7yVAK/html5"/>
+<img src="https://giphy.com/gifs/idjlI0ixTP6KP7yVAK/html5" width="40" height="40"/>
