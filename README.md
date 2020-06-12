@@ -1,4 +1,4 @@
-# BeCode_bon_beurre_man
+# Bon Beurre Man Project
 Projet de groupe de création d'un jeu multijoueur
 
 
