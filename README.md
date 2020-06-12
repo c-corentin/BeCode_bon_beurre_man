@@ -15,9 +15,11 @@ Bon Beurre Man est un jeu où le joueur incarne une poule lâchant des bombes de
 * Pivot : [Mourmeaux Jean](https://github.com/Daxdrena)
 
 
-## Technologies 
+## Technologies et outils utilisés
 
 * Socket.io
 * Phaser 3
 * Javascript
 * Node.js
+* HTML 5
+* Tiled
