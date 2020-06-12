@@ -23,3 +23,11 @@ Bon Beurre Man est un jeu où le joueur incarne une poule lâchant des bombes de
 * Node.js
 * HTML 5
 * Tiled
+
+## Médias 
+
+* Map crée à partir de différents spritesheets
+* Musique du jeu crée par un ami du membre de l'équipe
+
+
+![Alt Text]https://giphy.com/gifs/idjlI0ixTP6KP7yVAK/html5
