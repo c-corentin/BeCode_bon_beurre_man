@@ -8,7 +8,7 @@ Bon Beurre Man est un jeu où le joueur incarne une poule lâchant des bombes de
 
 ## Présentation de l'équipe
 
-* Project Manager : Colard Corention
-* Map Maker : Deltenre Amaury
-* Back-End : Sekri Yassine
+*  Project Manager : Colard Corention
+*  Map Maker : Deltenre Amaury
+*  Back-End : Sekri Yassine
 * Pivot : Mourmeaux Jean
